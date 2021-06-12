@@ -1,9 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToHexFileConverter", "ToHexFileConverter\ToHexFileConverter.csproj", "{03A2A27E-FDC8-40B6-9789-279A0BEF77E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution_Items", "Solution_Items", "{B26828F7-BBB3-4B4E-B754-DC3A54993BC2}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{1B046995-DF85-4209-9C06-D145CB7D2593}"
+	ProjectSection(SolutionItems) = preProject
+		..\img\Bild_20210404_192740_001.png = ..\img\Bild_20210404_192740_001.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +30,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B046995-DF85-4209-9C06-D145CB7D2593} = {B26828F7-BBB3-4B4E-B754-DC3A54993BC2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48E23E5C-BE83-443A-A764-470DC720DD76}
 	EndGlobalSection
 EndGlobal
